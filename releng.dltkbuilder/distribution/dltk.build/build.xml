@@ -28,6 +28,11 @@
 		<ant antfile="${buildTargets}">
 			<property name="component" value="ruby-sdk" />
 		</ant>
+
+		<ant antfile="${buildTargets}">
+			<property name="component" value="ruby.tests" />
+			<property name="eclipseBuildFailOnError" value="false" />
+		</ant>
 		
 		<ant antfile="${buildTargets}">
 			<property name="component" value="tcl" />
@@ -37,52 +42,13 @@
 			<property name="component" value="tcl-sdk" />
 		</ant>
 
-		<!-- ant antfile="${buildTargets}">
-			<property name="component" value="wysiwyg" />
-		</ant>
 		<ant antfile="${buildTargets}">
-			<property name="component" value="jst-sdk" />
-		</ant>
-		<ant antfile="${buildTargets}">
-			<property name="component" value="jst.tests" />
+			<property name="component" value="tcl.tests" />
 			<property name="eclipseBuildFailOnError" value="false" />
 		</ant>
-
-		<ant antfile="${buildTargets}">
-			<property name="component" value="jsf" />
-			<property name="eclipseBuildFailOnError" value="false" />
-		</ant>
-
-		<ant antfile="${buildTargets}">
-			<property name="component" value="jsf-sdk" />
-			<property name="eclipseBuildFailOnError" value="false" />
-		</ant>
-		<ant antfile="${buildTargets}">
-			<property name="component" value="jsf.tests" />
-			<property name="eclipseBuildFailOnError" value="false" />
-		</ant>
-
-		<ant antfile="${buildTargets}">
-			<property name="component" value="dali" />
-			<property name="eclipseBuildFailOnError" value="false" />
-		</ant>
-
-		<ant antfile="${buildTargets}">
-			<property name="component" value="dali-sdk" />
-			<property name="eclipseBuildFailOnError" value="false" />
-		</ant>
-
-		<ant antfile="${buildTargets}">
-			<property name="component" value="dali.tests" />
-			<property name="eclipseBuildFailOnError" value="false" />
-		</ant -->
-
-
-		<ant antfile="${dltk.builder.home}/scripts/build/label.xml" />
-
-		<antcall target="package"/>
 		
-		<!-- todo: all-one's will have to be moved after 'package' now --> 
+		<ant antfile="${dltk.builder.home}/scripts/build/label.xml" />
+		<antcall target="package"/>
 		
 	</target>
 
