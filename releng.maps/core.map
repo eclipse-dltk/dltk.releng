@@ -1,5 +1,5 @@
 !***************  DLTK CONTRIBUTION  ******************************************************** 
-! $Id: core.map,v 1.42.2.6 2007/08/02 13:22:03 mkalugin Exp $
+! $Id: core.map,v 1.42.2.7 2007/08/17 07:07:29 asobolev Exp $
 
 feature@org.eclipse.dltk.core=r09_v20070801,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/features/org.eclipse.dltk.core-feature
 feature@org.eclipse.dltk.core.sdk=r09_v20070801,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/features/org.eclipse.dltk.core.sdk
@@ -7,7 +7,7 @@ feature@org.eclipse.dltk.core.sdk=r09_v20070801,:pserver:anonymous@dev.eclipse.o
 plugin@org.eclipse.dltk=r09_v20070801,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk
 plugin@org.eclipse.dltk.core=r09_v20070801,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.core
 plugin@org.eclipse.dltk.console=r09_v20070801,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.console
-plugin@org.eclipse.dltk.launching=r09_v20070801,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.launching
+plugin@org.eclipse.dltk.launching=r09_v20070817,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.launching
 plugin@org.eclipse.dltk.debug=r09_v20070801,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.debug
 
 plugin@org.eclipse.dltk.validators.core=r09_v20070801,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.validators.core
