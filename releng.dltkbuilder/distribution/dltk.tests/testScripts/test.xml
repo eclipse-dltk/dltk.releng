@@ -187,11 +187,11 @@
 		<antcall target="tcl-tests" />
 		
 		<echo message="Starting UI tests" />
-		<echo message="Starting Ruby UI tests" />
-		<antcall target="ruby-ui-tests" />
-		
 		<echo message="Starting Core UI tests" />
 		<antcall target="core-ui-tests" />
+		
+		<echo message="Starting Ruby UI tests" />
+		<antcall target="ruby-ui-tests" />
 	
 		<echo message="Starting Tcl UI tests" />
 		<antcall target="tcl-ui-tests" />
