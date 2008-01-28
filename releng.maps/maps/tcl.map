@@ -1,14 +1,14 @@
 
 ! Tcl Development Tools (DLTK)
 !
-! $Id: tcl.map,v 1.25.2.18 2008/01/28 11:40:53 asobolev Exp $ 
+! $Id: tcl.map,v 1.25.2.19 2008/01/28 12:48:25 asobolev Exp $ 
 
 feature@org.eclipse.dltk.tcl=v20080125_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl-feature
 feature@org.eclipse.dltk.tcl.sdk=v20080114_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl.sdk
 
 plugin@org.eclipse.dltk.tcl=v20080114_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl
 plugin@org.eclipse.dltk.tcl.core=v20080128_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.core
-plugin@org.eclipse.dltk.tcl.launching=v20080128_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.launching
+plugin@org.eclipse.dltk.tcl.launching=v20080128a_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.launching
 plugin@org.eclipse.dltk.tcl.ui=v20080128_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.ui
 
 plugin@org.eclipse.dltk.tcl.debug=v20080114_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug
