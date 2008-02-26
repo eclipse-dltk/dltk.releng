@@ -1,4 +1,4 @@
-!***************  DLTK CONTRIBUTION  ******************************************************** 
+!***************   DLTK CONTRIBUTION  ******************************************************** 
 
 feature@org.eclipse.dltk.core=v20080226-1425,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/features/org.eclipse.dltk.core-feature
 feature@org.eclipse.dltk.core.sdk=v20080226-1425,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/features/org.eclipse.dltk.core.sdk
