@@ -1,18 +1,18 @@
 
 ! Tcl Development Tools (DLTK)
 !
-! $Id: tcl.map,v 1.25.2.57 2008/03/27 15:13:18 asobolev Exp $ 
+! $Id: tcl.map,v 1.25.2.58 2008/03/28 13:23:39 asobolev Exp $ 
 
 feature@org.eclipse.dltk.tcl=v20080313-1905,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl-feature
 feature@org.eclipse.dltk.tcl.sdk=v20080313-1905,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl.sdk
 
 plugin@org.eclipse.dltk.tcl=v20080114_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl
-plugin@org.eclipse.dltk.tcl.core=v20080327-2113,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.core
+plugin@org.eclipse.dltk.tcl.core=v20080328-1922,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.core
 plugin@org.eclipse.dltk.tcl.launching=v20080313-1905,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.launching
-plugin@org.eclipse.dltk.tcl.ui=v20080327-1739,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.ui
+plugin@org.eclipse.dltk.tcl.ui=v20080328-1922,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.ui
 
 plugin@org.eclipse.dltk.tcl.debug=v20080312-1506,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug
-plugin@org.eclipse.dltk.tcl.debug.ui=v20080228-1824,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug.ui
+plugin@org.eclipse.dltk.tcl.debug.ui=v20080328-1922,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug.ui
 
 plugin@org.eclipse.dltk.tcl.tclchecker=v20080312-1506,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.tclchecker
 
