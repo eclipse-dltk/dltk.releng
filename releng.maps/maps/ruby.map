@@ -1,19 +1,19 @@
 
 ! Ruby Development Tools (DLTK)
 !
-! $Id: ruby.map,v 1.33.2.22 2008/03/30 16:01:47 asobolev Exp $ 
+! $Id: ruby.map,v 1.33.2.23 2008/04/28 09:11:41 asobolev Exp $ 
 
 feature@org.eclipse.dltk.ruby=v20080313-1905,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/features/org.eclipse.dltk.ruby-feature
-feature@org.eclipse.dltk.ruby.sdk=v20080313-1905,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/features/org.eclipse.dltk.ruby.sdk
+feature@org.eclipse.dltk.ruby.sdk=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/features/org.eclipse.dltk.ruby.sdk
 
 plugin@org.eclipse.dltk.ruby=v20080118_wave,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby
-plugin@org.eclipse.dltk.ruby.core=v20080328-1922,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.core
-plugin@org.eclipse.dltk.ruby.launching=v20080313-1905,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.launching
+plugin@org.eclipse.dltk.ruby.core=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.core
+plugin@org.eclipse.dltk.ruby.launching=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.launching
 plugin@org.eclipse.dltk.ruby.debug=v20080327-1739,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.debug
-plugin@org.eclipse.dltk.ruby.ui=v20080330-2301,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.ui
-plugin@org.eclipse.dltk.ruby.debug.ui=v20080327-1739,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.debug.ui
+plugin@org.eclipse.dltk.ruby.ui=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.ui
+plugin@org.eclipse.dltk.ruby.debug.ui=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.debug.ui
 
-plugin@org.eclipse.dltk.ruby.abstractdebugger=v20080327-1739,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.abstractdebugger
-plugin@org.eclipse.dltk.ruby.basicdebugger=v20080327-1739,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.basicdebugger
-plugin@org.eclipse.dltk.ruby.fastdebugger=v20080327-1739,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.fastdebugger
-plugin@org.eclipse.dltk.ruby.activestatedebugger=v20080313-1905,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.activestatedebugger
+plugin@org.eclipse.dltk.ruby.abstractdebugger=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.abstractdebugger
+plugin@org.eclipse.dltk.ruby.basicdebugger=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.basicdebugger
+plugin@org.eclipse.dltk.ruby.fastdebugger=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.fastdebugger
+plugin@org.eclipse.dltk.ruby.activestatedebugger=v20080428-1607,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/ruby/plugins/org.eclipse.dltk.ruby.activestatedebugger
