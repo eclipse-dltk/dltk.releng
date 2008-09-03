@@ -2,8 +2,8 @@
 ! Cisco xotcl Widget
 ! Copyright (c) 2004, 2007 xored software, Inc.
 !
-! $Id: xotcl-tests.map,v 1.1.4.1 2008/09/03 07:37:27 asobolev Exp $ 
+! $Id: xotcl-tests.map,v 1.1.4.2 2008/09/03 08:08:01 asobolev Exp $ 
 
 feature@org.eclipse.dltk.xotcl.tests=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/xotcl/features/org.eclipse.dltk.xotcl.tests-feature
 
-plugin@org.eclipse.dltk.xotcl.core.tests=v20080903-1434,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/xotcl/tests/org.eclipse.dltk.xotcl.core.tests
+plugin@org.eclipse.dltk.xotcl.core.tests=v20080903-1507,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/xotcl/tests/org.eclipse.dltk.xotcl.core.tests
