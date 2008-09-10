@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dltk all tests Plug-in
+Bundle-SymbolicName: org.eclipse.dltk.tests.all
+Bundle-Version: 1.0.0
+Bundle-Activator: org.eclipse.dltk.tests.all.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.dltk.core.tests,
+ org.eclipse.dltk.debug.tests,
+ org.eclipse.dltk.ruby.core.tests,
+ org.eclipse.dltk.ruby.debug.tests,
+ org.eclipse.dltk.ruby.ui.tests,
+ org.eclipse.dltk.tcl.core.tests,
+ org.eclipse.dltk.tcl.testing,
+ org.eclipse.dltk.tcl.testing.tcltest,
+ org.eclipse.dltk.tcl.tests,
+ org.eclipse.dltk.tcl.ui.tests,
+ org.eclipse.dltk.testing,
+ org.eclipse.dltk.ui.tests,
+ org.eclipse.dltk.validators.core.tests,
+ org.eclipse.dltk.xotcl.core.tests,
+ org.eclipse.dltk.itcl.core.tests,
+ org.junit
+Eclipse-LazyStart: true
