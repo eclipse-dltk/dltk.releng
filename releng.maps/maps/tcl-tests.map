@@ -1,10 +1,10 @@
 !********* Eclipse Dynamic Languages Toolkit (DLTK)
 !
-! $Id: tcl-tests.map,v 1.1.6.2 2008/09/03 09:10:20 asobolev Exp $
+! $Id: tcl-tests.map,v 1.1.6.3 2008/09/15 10:04:15 asobolev Exp $
 !
 
 feature@org.eclipse.dltk.tcl.tests=v20080903-1610,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl.tests-feature
 
-plugin@org.eclipse.dltk.tcl.core.tests=v20080903-1434,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.core.tests
+plugin@org.eclipse.dltk.tcl.core.tests=v20080915-1703,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.core.tests
 plugin@org.eclipse.dltk.tcl.tests=v20080903-1434,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.tests
 plugin@org.eclipse.dltk.tcl.ui.tests=v20080903-1434,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.ui.tests
