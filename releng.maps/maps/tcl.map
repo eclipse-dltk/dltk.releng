@@ -1,7 +1,7 @@
 
 ! Tcl Development Tools (DLTK)
 !
-! $Id: tcl.map,v 1.204.2.1 2009/04/27 16:39:53 apanchenk Exp $ 
+! $Id: tcl.map,v 1.204.2.2 2009/04/27 17:25:34 apanchenk Exp $ 
 
 feature@org.eclipse.dltk.tcl=v20081007-1418,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl-feature
 feature@org.eclipse.dltk.tcl.sdk=v20090317-0731,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl.sdk
@@ -17,7 +17,7 @@ plugin@org.eclipse.dltk.tcl.ui=v20090415-2327,:pserver:anonymous@dev.eclipse.org
 plugin@org.eclipse.dltk.tcl.debug=v20090305-0026,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug
 plugin@org.eclipse.dltk.tcl.debug.ui=v20090416-2009,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug.ui
 
-plugin@org.eclipse.dltk.tcl.tclchecker=v20090424-2202,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.tclchecker
+plugin@org.eclipse.dltk.tcl.tclchecker=v20090428-0025,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.tclchecker
 
 plugin@org.eclipse.dltk.tcl.activestatedebugger=v20090413-1509,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.activestatedebugger
 
