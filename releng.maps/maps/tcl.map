@@ -1,7 +1,7 @@
 
 ! Tcl Development Tools (DLTK)
 !
-! $Id: tcl.map,v 1.204.2.2 2009/04/27 17:25:34 apanchenk Exp $ 
+! $Id: tcl.map,v 1.204.2.3 2009/05/01 10:55:11 apanchenk Exp $ 
 
 feature@org.eclipse.dltk.tcl=v20081007-1418,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl-feature
 feature@org.eclipse.dltk.tcl.sdk=v20090317-0731,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl.sdk
@@ -12,7 +12,7 @@ plugin@org.eclipse.dltk.tcl.parser=v20090316-1719,:pserver:anonymous@dev.eclipse
 plugin@org.eclipse.dltk.tcl.validators=v20090415-2327,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.validators
 plugin@org.eclipse.dltk.tcl.tcllib=v20081014-1440,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.tcllib
 plugin@org.eclipse.dltk.tcl.launching=v20081208-1354,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.launching
-plugin@org.eclipse.dltk.tcl.ui=v20090415-2327,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.ui
+plugin@org.eclipse.dltk.tcl.ui=v20090501,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.ui
 
 plugin@org.eclipse.dltk.tcl.debug=v20090305-0026,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug
 plugin@org.eclipse.dltk.tcl.debug.ui=v20090416-2009,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug.ui

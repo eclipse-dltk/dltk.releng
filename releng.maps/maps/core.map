@@ -5,7 +5,7 @@ feature@org.eclipse.dltk.core.sdk=v20081007-1215,:pserver:anonymous@dev.eclipse.
 
 plugin@org.eclipse.dltk=v20080815-1326,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk
 plugin@org.eclipse.dltk.core=v20090415-2327,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.core
-plugin@org.eclipse.dltk.ui=v20090424-2224,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.ui
+plugin@org.eclipse.dltk.ui=v20090501,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.ui
 plugin@org.eclipse.dltk.launching=v20090415-2327,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.launching
 plugin@org.eclipse.dltk.formatter=v20090415-2327,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.formatter
 
