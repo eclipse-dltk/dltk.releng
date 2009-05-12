@@ -1,7 +1,7 @@
 
 ! Performance (DLTK)
 !
-! $Id: performance.map,v 1.4 2009/03/16 12:58:10 apanchenk Exp $ 
+! $Id: performance.map,v 1.4.2.1 2009/05/12 15:30:48 apanchenk Exp $ 
 
 feature@org.eclipse.dltk.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/features/org.eclipse.dltk.performance-feature
 
@@ -9,5 +9,5 @@ plugin@org.eclipse.dltk.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvs
 plugin@org.eclipse.dltk.core.tests.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.dltk.core.tests.performance
 plugin@org.eclipse.dltk.tests.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.dltk.tests.performance
 
-!plugin@org.eclipse.test.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.test.performance
+plugin@org.eclipse.test.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.test.performance
 plugin@org.eclipse.test.performance.ui=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.test.performance.ui
