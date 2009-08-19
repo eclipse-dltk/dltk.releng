@@ -1,0 +1,13 @@
+
+! Performance (DLTK)
+!
+! $Id: performance.map,v 1.5.4.1 2009/08/19 09:09:42 apanchenk Exp $ 
+
+feature@org.eclipse.dltk.performance=v20090819,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/features/org.eclipse.dltk.performance-feature
+
+plugin@org.eclipse.dltk.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.dltk.performance
+plugin@org.eclipse.dltk.core.tests.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.dltk.core.tests.performance
+plugin@org.eclipse.dltk.tests.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.dltk.tests.performance
+
+plugin@org.eclipse.test.performance=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.test.performance
+plugin@org.eclipse.test.performance.ui=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/performance/plugins/org.eclipse.test.performance.ui

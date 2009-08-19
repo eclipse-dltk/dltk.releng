@@ -1,0 +1,27 @@
+
+! Tcl Development Tools (DLTK)
+!
+! $Id: tcl.map,v 1.231.2.1 2009/08/19 09:09:42 apanchenk Exp $ 
+
+feature@org.eclipse.dltk.tcl=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl-feature
+feature@org.eclipse.dltk.tcl.sdk=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl.sdk
+
+plugin@org.eclipse.dltk.tcl=v20090615-1430,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl
+plugin@org.eclipse.dltk.tcl.core=v20090819,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.core
+plugin@org.eclipse.dltk.tcl.parser=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.parser
+plugin@org.eclipse.dltk.tcl.validators=v20090613-1432,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.validators
+plugin@org.eclipse.dltk.tcl.tcllib=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.tcllib
+plugin@org.eclipse.dltk.tcl.launching=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.launching
+plugin@org.eclipse.dltk.tcl.ui=v20090819,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.ui
+
+plugin@org.eclipse.dltk.tcl.debug=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug
+plugin@org.eclipse.dltk.tcl.debug.ui=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.debug.ui
+
+plugin@org.eclipse.dltk.tcl.tclchecker=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.tclchecker
+
+plugin@org.eclipse.dltk.tcl.activestatedebugger=v20090613-1432,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.activestatedebugger
+
+plugin@org.eclipse.dltk.tcl.testing=v20090610-1638,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.testing
+plugin@org.eclipse.dltk.tcl.testing.tcltest=v20090615-1430,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/plugins/org.eclipse.dltk.tcl.testing.tcltest
+
+plugin@org.eclipse.dltk.tcl.doc.user=v20090613-1432,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/docs/org.eclipse.dltk.tcl.doc.user

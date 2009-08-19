@@ -1,0 +1,9 @@
+!********* Eclipse Dynamic Languages Toolkit (DLTK)
+!
+! $Id: javascript-tests.map,v 1.20.2.1 2009/08/19 09:09:42 apanchenk Exp $
+!
+
+feature@org.eclipse.dltk.javascript.tests=v20090528-1923,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/features/org.eclipse.dltk.javascript.tests
+
+plugin@org.eclipse.dltk.javascript.core.tests=v20090528-1923,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/tests/org.eclipse.dltk.javascript.core.tests
+plugin@org.eclipse.dltk.javascript.formatter.tests=v20090819,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/tests/org.eclipse.dltk.javascript.formatter.tests
