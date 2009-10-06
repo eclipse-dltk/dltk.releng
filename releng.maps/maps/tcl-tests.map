@@ -1,13 +1,13 @@
 !********* Eclipse Dynamic Languages Toolkit (DLTK)
 !
-! $Id: tcl-tests.map,v 1.52 2009/09/08 09:14:03 asobolev Exp $
+! $Id: tcl-tests.map,v 1.52.2.1 2009/10/06 19:50:00 apanchenk Exp $
 !
 
 feature@org.eclipse.dltk.tcl.tests=v20090730-1127,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/features/org.eclipse.dltk.tcl.tests-feature
 
 plugin@org.eclipse.dltk.tcl.core.tests=v20090908-1616,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.core.tests
 plugin@org.eclipse.dltk.tcl.tests=v20090730-1127,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.tests
-plugin@org.eclipse.dltk.tcl.ui.tests=v20090815,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.ui.tests
+plugin@org.eclipse.dltk.tcl.ui.tests=v20091007-0249,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.ui.tests
 
 plugin@org.eclipse.dltk.tcl.parser.tests=v20090815,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.parser.tests
 plugin@org.eclipse.dltk.tcl.validators.tests=v20090908-1616,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/tcl/tests/org.eclipse.dltk.tcl.validators.tests
