@@ -1,12 +1,12 @@
 
 ! Javascript Development Tools (DLTK)
 !
-! $Id: javascript.map,v 1.186 2010/06/03 16:35:48 apanchenk Exp $ 
+! $Id: javascript.map,v 1.186.2.1 2010/08/06 05:46:09 apanchenk Exp $ 
 
 feature@org.eclipse.dltk.javascript=v20100118-1339,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/features/org.eclipse.dltk.javascript-feature
 feature@org.eclipse.dltk.javascript.sdk=v20090730-1412,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/features/org.eclipse.dltk.javascript.sdk
 
-plugin@org.eclipse.dltk.javascript.core=v20100603-0936,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/plugins/org.eclipse.dltk.javascript.core
+plugin@org.eclipse.dltk.javascript.core=v20100806-1245,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/plugins/org.eclipse.dltk.javascript.core
 plugin@org.eclipse.dltk.javascript.core.dom.support=v20100222-1537,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/plugins/org.eclipse.dltk.javascript.core.dom.support
 plugin@org.eclipse.dltk.javascript.core.dom.support.sample=v20100222-1537,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/plugins/org.eclipse.dltk.javascript.core.dom.support.sample
 plugin@org.eclipse.dltk.javascript.debug=v20090708-1856,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/javascript/plugins/org.eclipse.dltk.javascript.debug

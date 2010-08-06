@@ -4,9 +4,9 @@ feature@org.eclipse.dltk.core=v20100518-1923,:pserver:anonymous@dev.eclipse.org:
 feature@org.eclipse.dltk.core.sdk=v20090730-1127,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/features/org.eclipse.dltk.core.sdk
 
 plugin@org.eclipse.dltk=v20090827,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk
-plugin@org.eclipse.dltk.core=v20100603-0936,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.core
+plugin@org.eclipse.dltk.core=v20100806-1245,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.core
 plugin@org.eclipse.dltk.ui=v20100603-0936,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.ui
-plugin@org.eclipse.dltk.launching=v20100524-0038,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.launching
+plugin@org.eclipse.dltk.launching=v20100806-1245,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.launching
 plugin@org.eclipse.dltk.formatter=v20100304-1959,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.formatter
 
 plugin@org.eclipse.dltk.console=v20090730-1127,:pserver:anonymous@dev.eclipse.org:/cvsroot/technology,,org.eclipse.dltk/core/plugins/org.eclipse.dltk.console
