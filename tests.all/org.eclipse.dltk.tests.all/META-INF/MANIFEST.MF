@@ -5,6 +5,7 @@ Bundle-SymbolicName: org.eclipse.dltk.tests.all
 Bundle-Version: 4.0.0
 Bundle-Activator: org.eclipse.dltk.tests.all.Activator
 Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui.workbench,
  org.eclipse.dltk.core.tests,
  org.eclipse.dltk.debug.tests,
  org.eclipse.dltk.python.tests,
@@ -35,4 +36,5 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.dltk.javascript.formatter.tests,
  org.eclipse.dltk.javascript.parser.tests,
  org.eclipse.dltk.tcl.formatter.tests
-Eclipse-LazyStart: true
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

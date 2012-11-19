@@ -24,6 +24,7 @@ public class AllTests {
 
 	public static Test suite() {
 		TestSuite suite = new TestSuite("DLTK tests"); //$NON-NLS-1$
+		suite.addTestSuite(PrepareWorkbenchTest.class);
 		suite.addTest(createCore());
 		suite.addTest(createJavaScript());
 		suite.addTest(createTCL());
