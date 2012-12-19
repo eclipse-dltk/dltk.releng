@@ -13,18 +13,12 @@ package org.eclipse.dltk.tests.all;
 
 import junit.framework.TestCase;
 
-import org.eclipse.ui.PlatformUI;
-import org.eclipse.ui.intro.IIntroManager;
-import org.eclipse.ui.intro.IIntroPart;
+import org.eclipse.dltk.ui.tests.UITestUtils;
 
 public class PrepareWorkbenchTest extends TestCase {
 
     public void testCloseIntro() {
-        final IIntroManager manager = PlatformUI.getWorkbench().getIntroManager();
-        final IIntroPart part = manager.getIntro();
-        if (part != null) {
-            manager.closeIntro(part);
-        }
+        UITestUtils.closeIntro();
     }
 
 }
