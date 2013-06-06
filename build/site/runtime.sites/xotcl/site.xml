@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.dltk.xotcl_4.0.0.qualifier.jar" id="org.eclipse.dltk.xotcl" version="4.0.0.qualifier"/>
+   <feature url="features/org.eclipse.dltk.xotcl_5.0.0.qualifier.jar" id="org.eclipse.dltk.xotcl" version="5.0.0.qualifier"/>
 </site>

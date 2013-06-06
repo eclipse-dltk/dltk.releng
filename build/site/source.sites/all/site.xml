@@ -6,64 +6,64 @@
   the Eclipse Dynamic Languages
   Toolkit Project (DLTK)
    </description>
-   <feature url="features/org.eclipse.dltk.core_0.0.0.qualifier.jar" id="org.eclipse.dltk.core" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.core_5.0.0.qualifier.jar" id="org.eclipse.dltk.core" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.core.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.core.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.core.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.core.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.0.0.0.qualifier.jar" id="org.eclipse.dltk.rse" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.5.0.0.qualifier.jar" id="org.eclipse.dltk.rse" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.rse.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.rse.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.rse.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.rse.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.core.index_0.0.0.qualifier.jar" id="org.eclipse.dltk.core.index" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.core.index_5.0.0.qualifier.jar" id="org.eclipse.dltk.core.index" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.core.index.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.core.index.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.core.index.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.core.index.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.mylyn_0.0.0.qualifier.jar" id="org.eclipse.dltk.mylyn" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.mylyn_5.0.0.qualifier.jar" id="org.eclipse.dltk.mylyn" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.mylyn.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.mylyn.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.mylyn.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.mylyn.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.ruby_0.0.0.qualifier.jar" id="org.eclipse.dltk.ruby" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.ruby_5.0.0.qualifier.jar" id="org.eclipse.dltk.ruby" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.ruby.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.ruby.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.ruby.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.ruby.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.tcl_0.0.0.qualifier.jar" id="org.eclipse.dltk.tcl" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.tcl_5.0.0.qualifier.jar" id="org.eclipse.dltk.tcl" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.tcl.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.tcl.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.tcl.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.tcl.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.python_0.0.0.qualifier.jar" id="org.eclipse.dltk.python" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.python_5.0.0.qualifier.jar" id="org.eclipse.dltk.python" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.python.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.python.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.python.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.python.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.javascript_0.0.0.qualifier.jar" id="org.eclipse.dltk.javascript" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.javascript_5.0.0.qualifier.jar" id="org.eclipse.dltk.javascript" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.javascript.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.javascript.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.javascript.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.javascript.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.xotcl_0.0.0.qualifier.jar" id="org.eclipse.dltk.xotcl" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.xotcl_5.0.0.qualifier.jar" id="org.eclipse.dltk.xotcl" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.xotcl.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.xotcl.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.xotcl.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.xotcl.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.itcl_0.0.0.qualifier.jar" id="org.eclipse.dltk.itcl" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.itcl_5.0.0.qualifier.jar" id="org.eclipse.dltk.itcl" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.itcl.sdk_0.0.0.qualifier.jar" id="org.eclipse.dltk.itcl.sdk" version="0.0.0.qualifier">
+   <feature url="features/org.eclipse.dltk.itcl.sdk_5.0.0.qualifier.jar" id="org.eclipse.dltk.itcl.sdk" version="5.0.0.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
    <category-def name="Dynamic Languages Toolkit (DLTK)" label="Dynamic Languages Toolkit (DLTK)">
