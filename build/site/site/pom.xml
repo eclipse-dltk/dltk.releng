@@ -14,7 +14,7 @@
 	<packaging>pom</packaging>
 	<properties>
 		<buildLabel>I-</buildLabel>
-		<buildBranch>4.0.0</buildBranch>
+		<buildBranch>R5.0</buildBranch>
 		<buildTypeId>Integration</buildTypeId>
 	</properties>
 
