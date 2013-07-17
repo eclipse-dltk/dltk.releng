@@ -12,13 +12,13 @@
 		<tycho-version>0.16.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<eclipse-repository-url>http://download.eclipse.org/releases/indigo/</eclipse-repository-url>
+		<eclipse-repository-url>http://download.eclipse.org/releases/kepler/</eclipse-repository-url>
 		<pack200>${java.home}/bin</pack200>
 	</properties>
 
 	<repositories>
 		<repository>
-			<id>indigo</id>
+			<id>kepler</id>
 			<layout>p2</layout>
 			<url>${eclipse-repository-url}</url>
 		</repository>

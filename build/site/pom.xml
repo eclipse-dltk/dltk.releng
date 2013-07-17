@@ -13,7 +13,7 @@
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<dltk-repository-url>file://${basedir}/../../../update.site/target/site/</dltk-repository-url>
-		<eclipse-repository-url>http://download.eclipse.org/releases/juno/</eclipse-repository-url>
+		<eclipse-repository-url>http://download.eclipse.org/releases/kepler/</eclipse-repository-url>
 	</properties>
 
 	<repositories>
