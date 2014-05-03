@@ -9,16 +9,16 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho-version>0.16.0</tycho-version>
+		<tycho-version>0.20.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<eclipse-repository-url>http://download.eclipse.org/releases/kepler/</eclipse-repository-url>
+		<eclipse-repository-url>http://download.eclipse.org/releases/luna/</eclipse-repository-url>
 		<pack200>${java.home}/bin</pack200>
 	</properties>
 
 	<repositories>
 		<repository>
-			<id>kepler</id>
+			<id>eclipse-release</id>
 			<layout>p2</layout>
 			<url>${eclipse-repository-url}</url>
 		</repository>
