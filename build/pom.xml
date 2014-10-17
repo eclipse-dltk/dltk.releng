@@ -6,7 +6,7 @@
 
 	<groupId>org.eclipse.dltk</groupId>
 	<artifactId>dltk</artifactId>
-	<version>5.1.0-SNAPSHOT</version>
+	<version>5.1.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
