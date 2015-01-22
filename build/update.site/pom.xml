@@ -10,7 +10,7 @@
 		<groupId>org.eclipse.dltk</groupId>
 	</parent>
 	<artifactId>update.site</artifactId>
-	<packaging>eclipse-update-site</packaging>
+	<packaging>eclipse-repository</packaging>
 	<build>
 		<plugins>
 			<plugin>
