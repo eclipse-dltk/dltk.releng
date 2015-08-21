@@ -30,6 +30,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<eclipse-repository-url>http://download.eclipse.org/releases/luna/</eclipse-repository-url>
 		<pack200>${java.home}/bin</pack200>
+		<tycho.testArgLine></tycho.testArgLine>
 	</properties>
 
 	<repositories>
@@ -129,7 +130,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 	<profiles>
 		<profile>
 			<id>sign</id>
@@ -201,6 +202,52 @@
 						<configuration>
 							<defaultP2Metadata>false</defaultP2Metadata>
 						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>sonar</id>
+			<properties>
+				<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+				<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+				<sonar.jacoco.reportPath>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPath>
+				<sonar.java.source>1.6</sonar.java.source>
+				<maven.test.failure.ignore>true</maven.test.failure.ignore>
+				<maven.test.error.ignore>true</maven.test.error.ignore>
+				<tycho.testArgLine>${jacoco.argLine}</tycho.testArgLine>
+			</properties>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>org.codehaus.mojo</groupId>
+							<artifactId>sonar-maven-plugin</artifactId>
+							<version>2.6</version>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+				<plugins>
+					<plugin>
+						<groupId>org.jacoco</groupId>
+						<artifactId>jacoco-maven-plugin</artifactId>
+						<version>0.7.5.201505241946</version>
+						<executions>
+							<execution>
+								<goals>
+									<goal>prepare-agent</goal>
+								</goals>
+								<id>pre-test</id>
+								<configuration>
+									<destFile>${sonar.jacoco.reportPath}</destFile>
+									<includes>
+										<include>org.eclipse.dltk.*</include>
+									</includes>
+									<propertyName>jacoco.argLine</propertyName>
+									<append>true</append>
+								</configuration>
+							</execution>
+						</executions>
 					</plugin>
 				</plugins>
 			</build>

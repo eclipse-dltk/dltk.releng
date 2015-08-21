@@ -36,8 +36,6 @@
 				<sonar.java.source>1.6</sonar.java.source>
 				<maven.test.failure.ignore>true</maven.test.failure.ignore>
 				<maven.test.error.ignore>true</maven.test.error.ignore>
-				<os-jvm-flags>${jacoco.argLine}</os-jvm-flags>
-				<tycho.testArgLine>${jacoco.argLine}</tycho.testArgLine>
 			</properties>
 			<build>
 				<pluginManagement>
