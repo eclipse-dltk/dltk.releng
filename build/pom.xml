@@ -19,6 +19,7 @@
 		<module>../../org.eclipse.dltk.core/rse</module>
 		<module>../../org.eclipse.dltk.python</module>
 		<module>../../org.eclipse.dltk.core/mylyn</module>
+		<module>../../org.eclipse.dltk.sh</module>
 		<module>update.site</module>
 		<!-- <module>testplatform</module> <module>javascript.tests</module> -->
 		<!-- <module>site</module> -->
@@ -212,7 +213,7 @@
 				<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 				<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 				<sonar.jacoco.reportPath>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPath>
-				<sonar.java.source>1.6</sonar.java.source>
+				<sonar.java.source>1.7</sonar.java.source>
 				<maven.test.failure.ignore>true</maven.test.failure.ignore>
 				<maven.test.error.ignore>true</maven.test.error.ignore>
 				<tycho.testArgLine>${jacoco.argLine}</tycho.testArgLine>

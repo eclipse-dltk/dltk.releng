@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site
-	pack200="true"
-	mirrorsURL="http://www.eclipse.org/downloads/download.php?file=/technology/dltk/updates-dev/5.0/site.xml&amp;format=xml"
-	digestURL="http://download.eclipse.org/technology/dltk/updates-dev/5.0/">
+      mirrorsURL="http://www.eclipse.org/downloads/download.php?file=/technology/dltk/updates-dev/5.0/site.xml&amp;format=xml"
+      digestURL="http://download.eclipse.org/technology/dltk/updates-dev/5.0/">
    <description url="http://www.eclipse.org/dltk/">
       The update site contains the features of
   the Eclipse Dynamic Languages
@@ -71,6 +70,12 @@
    <feature url="features/org.eclipse.dltk.itcl.sdk_0.0.0.jar" id="org.eclipse.dltk.itcl.sdk" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
+   <feature url="features/org.eclipse.dltk.sh_0.0.0.jar" id="org.eclipse.dltk.sh" version="0.0.0">
+      <category name="Dynamic Languages Toolkit (DLTK)"/>
+   </feature>
+   <feature url="features/org.eclipse.dltk.sh.sdk_0.0.0.jar" id="org.eclipse.dltk.sh.sdk" version="0.0.0">
+      <category name="Dynamic Languages Toolkit (DLTK)"/>
+   </feature>
    <category-def name="Dynamic Languages Toolkit (DLTK)" label="Dynamic Languages Toolkit (DLTK)">
       <description>
          This category contains the features of the Eclipse
@@ -78,6 +83,5 @@
    Toolkit Project (DLTK).
       </description>
    </category-def>
-   <category-def name="DLTK-Tests" label="Dynamic Languages Toolkit (DLTK) Tests">
-   </category-def>
+   <category-def name="DLTK-Tests" label="Dynamic Languages Toolkit (DLTK) Tests"/>
 </site>
