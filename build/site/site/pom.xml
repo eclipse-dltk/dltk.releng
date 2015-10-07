@@ -14,7 +14,7 @@
 	<packaging>pom</packaging>
 	<properties>
 		<buildLabel>I-</buildLabel>
-		<buildBranch>R5.3.1</buildBranch>
+		<buildBranch>R5.4</buildBranch>
 		<buildTypeId>Integration</buildTypeId>
 	</properties>
 
@@ -97,6 +97,13 @@
 								<copy overwrite="true"
 									file="${basedir}/../source.sites/core/target/site_assembly.zip"
 									tofile="${basedir}/target/site/dltk-core-sdk-${buildLabel}${buildId}.zip" />
+									
+								<copy overwrite="true"
+									file="${basedir}/../runtime.sites/sh/target/site_assembly.zip"
+									tofile="${basedir}/target/site/dltk-sh-${buildLabel}${buildId}.zip" />
+								<copy overwrite="true"
+									file="${basedir}/../source.sites/sh/target/site_assembly.zip"
+									tofile="${basedir}/target/site/dltk-sh-sdk-${buildLabel}${buildId}.zip" />
 									
 								<copy overwrite="true"
 									file="${basedir}/../runtime.sites/core.index/target/site_assembly.zip"

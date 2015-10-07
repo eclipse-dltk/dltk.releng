@@ -25,5 +25,6 @@
 		<module>ruby</module>
 		<module>tcl</module>
 		<module>xotcl</module>
+		<module>sh</module>
 	</modules>
 </project>

@@ -349,7 +349,20 @@ as PHP and Perl.</p>
         echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
-
+      <tr>
+        <td class="bold"><img src="images/eclipse.png" alt="" />ShellEd IDE</td>
+        <td><img src="images/eclipse.png" alt="" />Core</td>
+        <?php
+        $zipfilename="dltk-sh-@build@";
+        $filename=$zipfilename.".zip";
+        $zipfilesize=fileSizeInMegs($filename);
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        $zipfilename="dltk-sh-sdk-@build@";
+        $filename=$zipfilename.".zip";
+        $zipfilesize=fileSizeInMegs($filename);
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        ?>
+      </tr>
     </table>
   </div>
 
