@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site
-  digestURL="http://download.eclipse.org/technology/dltk/updates/5.3/">
+  digestURL="http://download.eclipse.org/technology/dltk/updates/5.3.1/">
    <description url="http://www.eclipse.org/dltk/">
       The update site contains the features of
   the Eclipse Dynamic Languages
   Toolkit Project (DLTK)
    </description>
-   <feature url="features/org.eclipse.dltk.core_5.3.0.qualifier.jar" id="org.eclipse.dltk.core" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.core_5.3.1.qualifier.jar" id="org.eclipse.dltk.core" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.5.3.0.qualifier.jar" id="org.eclipse.dltk.rse" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.5.3.1.qualifier.jar" id="org.eclipse.dltk.rse" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.core.index_5.3.0.qualifier.jar" id="org.eclipse.dltk.core.index" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.core.index_5.3.1.qualifier.jar" id="org.eclipse.dltk.core.index" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.mylyn_5.3.0.qualifier.jar" id="org.eclipse.dltk.mylyn" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.mylyn_5.3.1.qualifier.jar" id="org.eclipse.dltk.mylyn" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.ruby_5.3.0.qualifier.jar" id="org.eclipse.dltk.ruby" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.ruby_5.3.1.qualifier.jar" id="org.eclipse.dltk.ruby" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.tcl_5.3.0.qualifier.jar" id="org.eclipse.dltk.tcl" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.tcl_5.3.1.qualifier.jar" id="org.eclipse.dltk.tcl" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.python_5.3.0.qualifier.jar" id="org.eclipse.dltk.python" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.python_5.3.1.qualifier.jar" id="org.eclipse.dltk.python" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.javascript_5.3.0.qualifier.jar" id="org.eclipse.dltk.javascript" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.javascript_5.3.1.qualifier.jar" id="org.eclipse.dltk.javascript" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.xotcl_5.3.0.qualifier.jar" id="org.eclipse.dltk.xotcl" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.xotcl_5.3.1.qualifier.jar" id="org.eclipse.dltk.xotcl" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.itcl_5.3.0.qualifier.jar" id="org.eclipse.dltk.itcl" version="5.3.0.qualifier">
+   <feature url="features/org.eclipse.dltk.itcl_5.3.1.qualifier.jar" id="org.eclipse.dltk.itcl" version="5.3.1.qualifier">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
    <category-def name="Dynamic Languages Toolkit (DLTK)" label="Dynamic Languages Toolkit (DLTK)">
