@@ -9,11 +9,11 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho-version>0.17.0</tycho-version>
+		<tycho-version>0.23.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<dltk-repository-url>file://${basedir}/../../../update.site/target/site/</dltk-repository-url>
-		<eclipse-repository-url>http://download.eclipse.org/releases/kepler/</eclipse-repository-url>
+		<eclipse-repository-url>http://download.eclipse.org/releases/luna/</eclipse-repository-url>
 	</properties>
 
 	<repositories>

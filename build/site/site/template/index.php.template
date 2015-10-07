@@ -60,7 +60,7 @@ foreach ($compileSummary->summaryItem as $summaryItem) {
         eval($code);
 }
 
-$filename = "testcompilelogsSummary.xml";
+/*$filename = "testcompilelogsSummary.xml";
 $prefix = "test_";
 $compileSummary = simplexml_load_file($filename);
 foreach ($compileSummary->summaryItem as $summaryItem) {
@@ -69,7 +69,7 @@ foreach ($compileSummary->summaryItem as $summaryItem) {
         $code= "\$" . $prefix . $name . " = " . $value . ";";
         //echo "<br />code: " . $code;
         eval($code);
-}
+}*/
 
 
 ?>
@@ -158,18 +158,18 @@ as PHP and Perl.</p>
         $zipfilename="dltk-core-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         
         $zipfilename="dltk-core-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
         
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         
         //$zipfilename="dltk-core-Automated_Tests-@build@";
         //$filename=$zipfilename.".zip";
         //$zipfilesize=fileSizeInMegs($filename);
-        //echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        //echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
       <tr>
@@ -179,17 +179,17 @@ as PHP and Perl.</p>
         $zipfilename="dltk-ruby-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         
         $zipfilename="dltk-ruby-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         
         //$zipfilename="dltk-ruby-Automated_Tests-@build@";
         //$filename=$zipfilename.".zip";
         //$zipfilesize=fileSizeInMegs($filename);
-        //echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        //echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
       <tr>
@@ -199,17 +199,17 @@ as PHP and Perl.</p>
         $zipfilename="dltk-tcl-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         
         $zipfilename="dltk-tcl-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         
         //$zipfilename="dltk-tcl-Automated_Tests-@build@";
         //$filename=$zipfilename.".zip";
         //$zipfilesize=fileSizeInMegs($filename);
-        //echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        //echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>      
     </table>
@@ -231,11 +231,11 @@ as PHP and Perl.</p>
         $zipfilename="dltk-xotcl-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         $zipfilename="dltk-xotcl-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
       <tr>
@@ -245,11 +245,11 @@ as PHP and Perl.</p>
         $zipfilename="dltk-itcl-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         $zipfilename="dltk-itcl-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
     </table>
@@ -273,11 +273,11 @@ as PHP and Perl.</p>
         $zipfilename="dltk-rse-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         $zipfilename="dltk-rse-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
 	  <tr>
@@ -287,11 +287,11 @@ as PHP and Perl.</p>
         $zipfilename="dltk-core-index-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         $zipfilename="dltk-core-index-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
       <tr>
@@ -301,11 +301,11 @@ as PHP and Perl.</p>
         $zipfilename="dltk-mylyn-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         $zipfilename="dltk-mylyn-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
     </table>
@@ -328,11 +328,11 @@ as PHP and Perl.</p>
         $zipfilename="dltk-python-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         $zipfilename="dltk-python-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
       <tr>
@@ -342,11 +342,11 @@ as PHP and Perl.</p>
         $zipfilename="dltk-javascript-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         $zipfilename="dltk-javascript-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
 
@@ -367,17 +367,17 @@ as PHP and Perl.</p>
         $zipfilename="dltk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         
         $zipfilename="dltk-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         
         //$zipfilename="dltk-Automated_Tests-@build@";
         //$filename=$zipfilename.".zip";
         //$zipfilesize=fileSizeInMegs($filename);
-        //echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        //echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         ?>
       </tr>
       <!--tr>
@@ -386,7 +386,7 @@ as PHP and Perl.</p>
         $zipfilename="dltk-@build@-updateSite";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
-        echo '<td><img src="images/download.png" alt="" /><a href="' . ${downloadprefix} . ${filename} . '">' . "Download " . '</a><h6>'.${zipfilesize}.'mb</h6><a href="checksum/' . ${filename} . '.md5"><img src="images/md5.png" alt="" /></a></td>';
+        echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
         echo '<td>&nbsp;</td>';
         echo '<td>&nbsp;</td>';
         ?>

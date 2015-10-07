@@ -16,6 +16,7 @@
 	<modules>
 		<module>all</module>
 		<module>core</module>
+		<module>core.index</module>
 		<module>itcl</module>
 		<module>javascript</module>
 		<module>mylyn</module>
