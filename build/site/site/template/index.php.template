@@ -60,7 +60,7 @@ foreach ($compileSummary->summaryItem as $summaryItem) {
         //eval($code);
 }
 
-/*$filename = "testcompilelogsSummary.xml";
+$filename = "testcompilelogsSummary.xml";
 $prefix = "test_";
 $compileSummary = simplexml_load_file($filename);
 foreach ($compileSummary->summaryItem as $summaryItem) {
@@ -69,7 +69,7 @@ foreach ($compileSummary->summaryItem as $summaryItem) {
         ${$prefix . $name} = $value;
         //echo "<br />code: " . $code;
         //eval($code);
-}*/
+}
 
 
 ?>

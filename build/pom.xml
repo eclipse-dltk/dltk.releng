@@ -28,6 +28,7 @@
 	<properties>
 		<tycho-version>0.23.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
+		<antrun-version>1.7</antrun-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<eclipse-repository-url>http://download.eclipse.org/releases/luna/</eclipse-repository-url>
 		<pack200>${java.home}/bin</pack200>
@@ -59,6 +60,7 @@
 	</pluginRepositories>
 
 	<build>
+
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
@@ -129,6 +131,7 @@
 					</environments>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 
@@ -253,6 +256,55 @@
 				</plugins>
 			</build>
 		</profile>
+		<profile>
+			<id>reports</id>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>${tycho-groupid}</groupId>
+							<artifactId>tycho-compiler-plugin</artifactId>
+							<version>${tycho-version}</version>
+							<configuration>
+								<logEnabled>true</logEnabled>
+								<logDirectory>${project.build.directory}/logfiles/</logDirectory>
+								<log>xml</log>
+								<showWarnings>true</showWarnings>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-antrun-plugin</artifactId>
+						<version>${antrun-version}</version>
+						<inherited>false</inherited>
+						<executions>
+							<execution>
+								<id>generate-summary</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>copy-resources</goal>
+								</goals>
+								<configuration>
+									<exportAntProperties>true</exportAntProperties>
+									<target>
+										<property name="compile_classpath" refid="maven.compile.classpath" />
+										<property name="runtime_classpath" refid="maven.runtime.classpath" />
+										<property name="test_classpath" refid="maven.test.classpath" />
+										<property name="plugin_classpath" refid="maven.plugin.classpath" />
+										<ant inheritRefs="true" antfile="${basedir}/postBuild.xml">
+											<target name="init" />
+										</ant>
+									</target>
+								</configuration>
+								
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
 	</profiles>
-
 </project>

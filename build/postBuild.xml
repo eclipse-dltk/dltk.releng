@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Check" default="init" basedir=".">
+	<target name="init">
+		<xmlproperty file="pom.xml" prefix="pom_file" collapseattributes="true" semanticattributes="true"/>
+		<script language="javascript">
+		<![CDATA[
+		var modules = project.getProperty('pom_file.project.modules.module').split(',');
+		function echo(mess) {
+			var e = project.createTask('echo');
+			e.setMessage(mess);
+			e.perform();
+		}
+		var counts = {
+			bundles : {
+				totalBundles : 0,
+				totalWarnings : 0,
+				totalErrors : 0,
+				totalAccess : 0,
+				totaldiscouragedAccessWarningCount : 0,
+				totalforbiddenAccessWarningCount : 0
+			},
+			tests : {
+				totalBundles : 0,
+				totalWarnings : 0,
+				totalErrors : 0,
+				totalAccess : 0,
+				totaldiscouragedAccessWarningCount : 0,
+				totalforbiddenAccessWarningCount : 0
+			}
+		};
+		for (var i in modules) {
+			var logs = project.createDataType('fileset');
+			logs.setDir(new java.io.File(modules[i]));
+			logs.setIncludes('**/target/logfiles/*.xml');
+			var ds = logs.getDirectoryScanner(project);
+		    var srcFiles = ds.getIncludedFiles();
+				
+			for (var a in srcFiles) {
+				var basedir  = logs.getDir(project);
+		        var filename = srcFiles[a];
+		        var file = new java.io.File(basedir, filename), bundleDir = file.getParentFile().getParentFile().getParentFile(), tests = false;
+				if (bundleDir.getName().indexOf('.test') != -1) { 
+					tests = true;
+				}
+				var curr = tests ? counts.tests : counts.bundles;
+				curr.totalBundles++;
+				var dbFactory = javax.xml.parsers.DocumentBuilderFactory.newInstance(), dBuilder = dbFactory.newDocumentBuilder(), doc = dBuilder.parse(file)
+				var sources = doc.getElementsByTagName('sources');
+				if (sources.getLength() == 0) {
+					continue;
+				}
+				sources = sources.item(0).getElementsByTagName('source');
+				for (var p = 0; p < sources.getLength();p++) {
+					var main = sources.item(p).getElementsByTagName('problems');
+					if(main.getLength() == 0) {
+						continue;
+					}
+					var problems = main.item(0).getElementsByTagName('problem');	
+					for (var n = 0; n < problems.getLength(); n++) {
+						var problemId = problems.item(n).getAttribute('problemId');
+						if (problemId = 'ForbiddenReference') {
+							curr.totalforbiddenAccessWarningCount++;
+							curr.access++;
+						} else if (problemId == 'DiscouragedReference') {
+							curr.totaldiscouragedAccessWarningCount++;
+							curr.access++;
+						}
+						var problemSeverity = problems.item(n).getAttribute('severity');
+						if(problemSeverity == "WARNING") {
+							curr.totalWarnings++;
+						} else if (problemSeverity =="ERROR") {
+							curr.totalErrors++;
+						}
+					}
+				}
+			}
+		
+		}
+		function prepareXml(fileName, settings) {
+			var docFactory = javax.xml.parsers.DocumentBuilderFactory.newInstance();
+			docBuilder = docFactory.newDocumentBuilder();
+			doc = docBuilder.newDocument();
+			rootElement = doc.createElement("compileSummary");
+			doc.appendChild(rootElement);
+			for (var varName in settings) {
+				var item = doc.createElement('summaryItem');
+				var name = doc.createElement('name'), value = doc.createElement('value');
+				name.appendChild(doc.createTextNode(varName));
+				value.appendChild(doc.createTextNode(settings[varName]));
+				item.appendChild(name);
+				item.appendChild(value);
+				
+				rootElement.appendChild(item);
+			}
+		
+			// write the content into xml file
+			transformerFactory = javax.xml.transform.TransformerFactory.newInstance();
+			transformer = transformerFactory.newTransformer();
+			source = new javax.xml.transform.dom.DOMSource(doc);
+			var dir = new java.io.File('update.site/target/repository/logs');
+			dir.mkdirs();
+			var resFile = new java.io.File(dir, fileName);
+			if (resFile.exists()) {	
+				resFile.delete();
+			}
+			result = new javax.xml.transform.stream.StreamResult(resFile);
+		
+			transformer.transform(source, result);
+		}
+		prepareXml('compilelogsSummary.xml', counts.bundles);
+		prepareXml('testcompilelogsSummary.xml', counts.tests);
+		]]>
+		</script>
+	</target>
+	<target name="loop">
+		<echo>${module}</echo>
+		
+		<fileset dir="${module}">
+		<include name="**/logfiles/*.xml"/>
+		</fileset>
+	</target>
+</project>
