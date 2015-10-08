@@ -285,7 +285,7 @@
 								<id>generate-summary</id>
 								<phase>verify</phase>
 								<goals>
-									<goal>copy-resources</goal>
+									<goal>run</goal>
 								</goals>
 								<configuration>
 									<exportAntProperties>true</exportAntProperties>
