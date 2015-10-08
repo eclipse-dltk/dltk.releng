@@ -97,7 +97,7 @@
 			transformerFactory = javax.xml.transform.TransformerFactory.newInstance();
 			transformer = transformerFactory.newTransformer();
 			source = new javax.xml.transform.dom.DOMSource(doc);
-			var dir = new java.io.File('update.site/target/repository/logs');
+			var dir = new java.io.File('target/repository/logs');
 			dir.mkdirs();
 			var resFile = new java.io.File(dir, fileName);
 			if (resFile.exists()) {	
