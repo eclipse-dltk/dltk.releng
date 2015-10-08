@@ -62,10 +62,10 @@
 						var problemId = problems.item(n).getAttribute('problemId');
 						if (problemId = 'ForbiddenReference') {
 							curr.totalforbiddenAccessWarningCount++;
-							curr.access++;
+							curr.totalAccess++;
 						} else if (problemId == 'DiscouragedReference') {
 							curr.totaldiscouragedAccessWarningCount++;
-							curr.access++;
+							curr.totalAccess++;
 						}
 						var problemSeverity = problems.item(n).getAttribute('severity');
 						if(problemSeverity == "WARNING") {
