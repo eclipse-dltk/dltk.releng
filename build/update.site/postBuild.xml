@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Check" default="init" basedir=".">
+<project name="Check" default="init" basedir="../.">
 	<target name="init">
 		<xmlproperty file="pom.xml" prefix="pom_file" collapseattributes="true" semanticattributes="true"/>
 		<script language="javascript">
@@ -30,7 +30,7 @@
 		};
 		for (var i in modules) {
 			var logs = project.createDataType('fileset');
-			logs.setDir(new java.io.File(modules[i]));
+			logs.setDir(new java.io.File('../' + modules[i]));
 			logs.setIncludes('**/target/logfiles/*.xml');
 			var ds = logs.getDirectoryScanner(project);
 		    var srcFiles = ds.getIncludedFiles();
@@ -101,7 +101,7 @@
 			dir.mkdirs();
 			var resFile = new java.io.File(dir, fileName);
 			if (resFile.exists()) {	
-				resFile.delete();
+				resFile['delete'](); 
 			}
 			result = new javax.xml.transform.stream.StreamResult(resFile);
 		
