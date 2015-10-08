@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Check" default="init" basedir="../.">
+<project name="Check" default="init" basedir=".">
 	<target name="init">
-		<xmlproperty file="pom.xml" prefix="pom_file" collapseattributes="true" semanticattributes="true"/>
+		<xmlproperty file="../pom.xml" prefix="pom_file" collapseattributes="true" semanticattributes="true"/>
 		<script language="javascript">
 		<![CDATA[
 		var modules = project.getProperty('pom_file.project.modules.module').split(',');
