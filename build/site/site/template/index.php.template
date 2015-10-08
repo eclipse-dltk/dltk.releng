@@ -55,9 +55,9 @@ $compileSummary = simplexml_load_file($filename);
 foreach ($compileSummary->summaryItem as $summaryItem) {
         $name = $summaryItem->name;
         $value = $summaryItem->value;
-        $code= "\$" . $prefix . $name . " = " . $value . ";";
+        ${$prefix . $name} = $value;
         //echo "<br />code: " . $code;
-        eval($code);
+        //eval($code);
 }
 
 /*$filename = "testcompilelogsSummary.xml";
@@ -66,9 +66,9 @@ $compileSummary = simplexml_load_file($filename);
 foreach ($compileSummary->summaryItem as $summaryItem) {
         $name = $summaryItem->name;
         $value = $summaryItem->value;
-        $code= "\$" . $prefix . $name . " = " . $value . ";";
+        ${$prefix . $name} = $value;
         //echo "<br />code: " . $code;
-        eval($code);
+        //eval($code);
 }*/
 
 
