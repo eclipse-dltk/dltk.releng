@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Check" default="init" basedir=".">
 	<target name="init">
-		<xmlproperty file="../pom.xml" prefix="pom_file" collapseattributes="true" semanticattributes="true"/>
+		<xmlproperty file="${basedir}/../pom.xml" prefix="pom_file" collapseattributes="true" semanticattributes="true"/>
 		<script language="javascript">
 		<![CDATA[
 		var modules = project.getProperty('pom_file.project.modules.module').split(',');
@@ -28,20 +28,22 @@
 				totalforbiddenAccessWarningCount : 0
 			}
 		};
+		var rootDir = project.getProperty('basedir');
 		for (var i in modules) {
 			var logs = project.createDataType('fileset');
-			logs.setDir(new java.io.File('../' + modules[i]));
+			logs.setDir(new java.io.File(rootDir + '/../' + modules[i]));
 			logs.setIncludes('**/target/logfiles/*.xml');
 			var ds = logs.getDirectoryScanner(project);
 		    var srcFiles = ds.getIncludedFiles();
 				
 			for (var a in srcFiles) {
-				var basedir  = logs.getDir(project);
+				var basedir  = logs.getDir(project).getCanonicalFile();
 		        var filename = srcFiles[a];
 		        var file = new java.io.File(basedir, filename), bundleDir = file.getParentFile().getParentFile().getParentFile(), tests = false;
 				if (bundleDir.getName().indexOf('.test') != -1) { 
 					tests = true;
 				}
+				echo(filename);
 				var curr = tests ? counts.tests : counts.bundles;
 				curr.totalBundles++;
 				var dbFactory = javax.xml.parsers.DocumentBuilderFactory.newInstance(), dBuilder = dbFactory.newDocumentBuilder(), doc = dBuilder.parse(file)
