@@ -30,7 +30,7 @@
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<antrun-version>1.7</antrun-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<eclipse-repository-url>http://download.eclipse.org/releases/luna/</eclipse-repository-url>
+		<eclipse-repository-url>http://download.eclipse.org/releases/mars/</eclipse-repository-url>
 		<pack200>${java.home}/bin</pack200>
 		<tycho.testArgLine></tycho.testArgLine>
 	</properties>
