@@ -13,7 +13,7 @@
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<dltk-repository-url>file://${basedir}/../../update.site/target/site/</dltk-repository-url>
-		<eclipse-repository-url>http://download.eclipse.org/releases/luna/</eclipse-repository-url>
+		<eclipse-repository-url>http://download.eclipse.org/releases/mars/</eclipse-repository-url>
 	</properties>
 
 	<repositories>
@@ -23,7 +23,7 @@
 			<url>${dltk-repository-url}</url>
 		</repository>
 		<repository>
-			<id>indigo</id>
+			<id>reltrain</id>
 			<layout>p2</layout>
 			<url>${eclipse-repository-url}</url>
 		</repository>
