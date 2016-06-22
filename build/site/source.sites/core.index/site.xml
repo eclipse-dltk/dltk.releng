@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.dltk.core.index_5.5.0.qualifier.jar" id="org.eclipse.dltk.core.index" version="5.5.0.qualifier"/>
-   <feature url="features/org.eclipse.dltk.core.index.sdk_5.5.0.qualifier.jar" id="org.eclipse.dltk.core.index.sdk" version="5.5.0.qualifier"/>
-   <feature url="features/org.eclipse.dltk.core.index.lucene_5.5.0.qualifier.jar" id="org.eclipse.dltk.core.index.lucene" version="5.5.0.qualifier"/>
-   <feature url="features/org.eclipse.dltk.core.index.lucene.sdk_5.5.0.qualifier.jar" id="org.eclipse.dltk.core.index.lucene.sdk" version="5.5.0.qualifier"/>
+   <feature url="features/org.eclipse.dltk.core.index_5.6.0.qualifier.jar" id="org.eclipse.dltk.core.index" version="5.6.0.qualifier"/>
+   <feature url="features/org.eclipse.dltk.core.index.sdk_5.6.0.qualifier.jar" id="org.eclipse.dltk.core.index.sdk" version="5.6.0.qualifier"/>
+   <feature url="features/org.eclipse.dltk.core.index.lucene_5.6.0.qualifier.jar" id="org.eclipse.dltk.core.index.lucene" version="5.6.0.qualifier"/>
+   <feature url="features/org.eclipse.dltk.core.index.lucene.sdk_5.6.0.qualifier.jar" id="org.eclipse.dltk.core.index.lucene.sdk" version="5.6.0.qualifier"/>
 </site>
