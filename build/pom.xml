@@ -30,18 +30,12 @@
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<antrun-version>1.7</antrun-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<eclipse-repository-url>http://download.eclipse.org/releases/mars/</eclipse-repository-url>
 		<pack200>${java.home}/bin</pack200>
 		<tycho.testArgLine></tycho.testArgLine>
 		<tycho.scmUrl>scm:git:git://git.eclipse.org/gitroot/dltk/org.eclipse.dltk.releng.git</tycho.scmUrl>
 	</properties>
 
 	<repositories>
-		<repository>
-			<id>eclipse-release</id>
-			<layout>p2</layout>
-			<url>${eclipse-repository-url}</url>
-		</repository>
 		<repository>
 			<id>license-feature</id>
 			<url>http://download.eclipse.org/cbi/updates/license/</url>
@@ -142,6 +136,14 @@
 							<arch>x86_64</arch>
 						</environment>
 					</environments>
+					 <target>
+            					<artifact>
+             					<groupId>org.eclipse.dltk.core</groupId>
+              					<artifactId>org.eclipse.dltk.core.targetplatform</artifactId>
+              					<classifier>DLTK-Mars-4.5</classifier>
+						        <version>${project.version}</version>
+            					</artifact>
+					</target>
 				</configuration>
 			</plugin>
 
