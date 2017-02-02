@@ -33,6 +33,7 @@
 		<pack200>${java.home}/bin</pack200>
 		<tycho.testArgLine></tycho.testArgLine>
 		<tycho.scmUrl>scm:git:git://git.eclipse.org/gitroot/dltk/org.eclipse.dltk.releng.git</tycho.scmUrl>
+		<eclipserun-repo>http://download.eclipse.org/eclipse/updates/4.5</eclipserun-repo>
 	</properties>
 
 	<repositories>
