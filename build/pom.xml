@@ -26,9 +26,9 @@
 	</modules>
 
 	<properties>
-		<tycho-version>0.26.0</tycho-version>
+		<tycho-version>1.0.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
-		<antrun-version>1.7</antrun-version>
+		<antrun-version>1.8</antrun-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<pack200>${java.home}/bin</pack200>
 		<tycho.testArgLine></tycho.testArgLine>
@@ -78,7 +78,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.5.1</version>
+				<version>3.6.1</version>
 			</plugin>
 			<plugin>
 				<groupId>${tycho-groupid}</groupId>
@@ -251,7 +251,7 @@
 					<plugin>
 						<groupId>org.jacoco</groupId>
 						<artifactId>jacoco-maven-plugin</artifactId>
-						<version>0.7.7.201606060606</version>
+						<version>0.7.9</version>
 						<executions>
 							<execution>
 								<goals>
