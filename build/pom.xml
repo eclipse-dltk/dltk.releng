@@ -33,7 +33,7 @@
 		<pack200>${java.home}/bin</pack200>
 		<tycho.testArgLine></tycho.testArgLine>
 		<tycho.scmUrl>scm:git:git://git.eclipse.org/gitroot/dltk/org.eclipse.dltk.releng.git</tycho.scmUrl>
-		<eclipserun-repo>http://download.eclipse.org/eclipse/updates/4.5</eclipserun-repo>
+		<eclipserun-repo>http://download.eclipse.org/eclipse/updates/4.6</eclipserun-repo>
 	</properties>
 
 	<repositories>
@@ -149,6 +149,27 @@
 			</plugin>
 
 		</plugins>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.tycho.extras</groupId>
+					<artifactId>tycho-eclipserun-plugin</artifactId>
+					<version>${tycho-version}</version>
+					<executions>
+					<execution>
+						<id>build_indexes</id>
+						<phase>compile</phase>
+						<goals>
+							<goal>eclipse-run</goal>
+						</goals>
+						<configuration>
+							<executionEnvironment>JavaSE-1.8</executionEnvironment>
+						</configuration>
+					</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 
 	<profiles>
