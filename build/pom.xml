@@ -141,7 +141,7 @@
             					<artifact>
              					<groupId>org.eclipse.dltk.core</groupId>
               					<artifactId>org.eclipse.dltk.core.targetplatform</artifactId>
-              					<classifier>DLTK-Mars-4.5</classifier>
+              					<classifier>DLTK-Neon-4.6</classifier>
 						        <version>${project.version}</version>
             					</artifact>
 					</target>
