@@ -15,7 +15,7 @@
 	<packaging>pom</packaging>
 	<url>https://eclipse.org/dltk</url>
 	<prerequisites>
-		<maven>3.1.1</maven>
+		<maven>3.3.1</maven>
 	</prerequisites>
 	<ciManagement>
 		<system>hudson</system>
