@@ -29,13 +29,11 @@
 	<name>Dynamic Language Toolkit (DLTK)</name>
 	
 	<modules>
-		<module>../org.eclipse.dltk.core/core</module>
+		<module>../org.eclipse.dltk.core</module>
 		<module>../org.eclipse.dltk.javascript</module>
 		<module>../org.eclipse.dltk.tcl</module>
 		<module>../org.eclipse.dltk.ruby</module>
-		<module>../org.eclipse.dltk.core/rse</module>
 		<module>../org.eclipse.dltk.python</module>
-		<module>../org.eclipse.dltk.core/mylyn</module>
 		<module>../org.eclipse.dltk.sh</module>
 		<module>build/update.site</module>
 		<!-- <module>testplatform</module> <module>javascript.tests</module> -->
