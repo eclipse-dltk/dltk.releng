@@ -31,7 +31,7 @@
 		var rootDir = project.getProperty('basedir');
 		for (var i in modules) {
 			var logs = project.createDataType('fileset');
-			logs.setDir(new java.io.File(rootDir + '/../' + modules[i]));
+			logs.setDir(new java.io.File(rootDir + '/../../' + modules[i]));
 			logs.setIncludes('**/target/logfiles/*.xml');
 			var ds = logs.getDirectoryScanner(project);
 		    var srcFiles = ds.getIncludedFiles();
