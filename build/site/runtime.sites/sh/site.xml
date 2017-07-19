@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.dltk.sh_5.7.0.qualifier.jar" id="org.eclipse.dltk.sh" version="5.7.0.qualifier"/>
+   <feature url="features/org.eclipse.dltk.sh_0.0.0.jar" id="org.eclipse.dltk.sh" version="0.0.0"/>
 </site>
