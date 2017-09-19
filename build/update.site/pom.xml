@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>dltk.build.all</artifactId>
-		<version>5.8.1-SNAPSHOT</version>
+		<version>5.9.0-SNAPSHOT</version>
 		<relativePath>../../pom.xml</relativePath>
 		<groupId>org.eclipse.dltk</groupId>
 	</parent>
