@@ -12,7 +12,7 @@
 
 	<groupId>org.eclipse.dltk</groupId>
 	<artifactId>dltk.build.all</artifactId>
-	<version>5.8.2-SNAPSHOT</version>
+	<version>5.9.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<url>https://eclipse.org/dltk</url>
 	<prerequisites>
