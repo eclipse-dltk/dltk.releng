@@ -155,7 +155,6 @@
             					<artifact>
              					<groupId>org.eclipse.dltk.core</groupId>
               					<artifactId>org.eclipse.dltk.core.targetplatform</artifactId>
-              					<classifier>DLTK-Oxygen-4.7</classifier>
 						<version>${project.version}</version>
             					</artifact>
 					</target>
