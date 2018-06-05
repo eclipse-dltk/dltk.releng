@@ -41,7 +41,7 @@
 	</modules>
 
 	<properties>
-		<tycho-version>1.1.0</tycho-version>
+		<tycho-version>1.2.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<antrun-version>1.8</antrun-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
