@@ -48,7 +48,7 @@
 		<pack200>${java.home}/bin</pack200>
 		<tycho.testArgLine></tycho.testArgLine>
 		<tycho.scmUrl>scm:git:git://git.eclipse.org/gitroot/dltk/org.eclipse.dltk.releng.git</tycho.scmUrl>
-		<eclipserun-repo>http://download.eclipse.org/eclipse/updates/4.8milestones/</eclipserun-repo>
+		<eclipserun-repo>http://download.eclipse.org/eclipse/updates/4.8/</eclipserun-repo>
 	</properties>
 
 	<repositories>
@@ -63,10 +63,6 @@
 		<pluginRepository>
 			<id>cbi-releases</id>
 			<url>https://repo.eclipse.org/content/repositories/cbi-releases/</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>cbi-snapshots</id>
-			<url>https://repo.eclipse.org/content/repositories/cbi-snapshots/</url>
 		</pluginRepository>
 	</pluginRepositories>
 
