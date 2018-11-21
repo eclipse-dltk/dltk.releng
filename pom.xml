@@ -18,7 +18,7 @@
 	<packaging>pom</packaging>
 	<url>https://eclipse.org/dltk</url>
 	<prerequisites>
-		<maven>3.3.1</maven>
+		<maven>3.3.9</maven>
 	</prerequisites>
 	<ciManagement>
 		<system>hudson</system>
@@ -90,7 +90,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.7.0</version>
+				<version>3.8.0</version>
 			</plugin>
 			<plugin>
 				<groupId>${tycho-groupid}</groupId>
@@ -272,7 +272,7 @@
 					<plugin>
 						<groupId>org.jacoco</groupId>
 						<artifactId>jacoco-maven-plugin</artifactId>
-						<version>0.8.1</version>
+						<version>0.8.2</version>
 						<executions>
 							<execution>
 								<goals>
