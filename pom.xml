@@ -43,14 +43,14 @@
 	</modules>
 
 	<properties>
-		<tycho-version>1.2.0</tycho-version>
+		<tycho-version>1.3.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<antrun-version>1.8</antrun-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<pack200>${java.home}/bin</pack200>
 		<tycho.testArgLine></tycho.testArgLine>
 		<tycho.scmUrl>scm:git:git://git.eclipse.org/gitroot/dltk/org.eclipse.dltk.releng.git</tycho.scmUrl>
-		<eclipserun-repo>http://download.eclipse.org/eclipse/updates/4.10-I-builds/</eclipserun-repo>
+		<eclipserun-repo>http://download.eclipse.org/eclipse/updates/4.11-I-builds/</eclipserun-repo>
 	</properties>
 
 	<repositories>
