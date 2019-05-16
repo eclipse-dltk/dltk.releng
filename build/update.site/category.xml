@@ -82,7 +82,7 @@
    <feature url="features/org.eclipse.dltk.sh.sdk_0.0.0.jar" id="org.eclipse.dltk.sh.sdk" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <BUNDle id="org.apache.lucene.core" version="8.0.0.v20190404-1858">
+   <bundle id="org.apache.lucene.core" version="8.0.0.v20190404-1858">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </bundle>
    <bundle id="org.apache.lucene.misc" version="8.0.0.v20190418-1455">
