@@ -32,7 +32,6 @@
 	
 	<modules>
 		<module>../org.eclipse.dltk.core</module>
-		<module>../org.eclipse.dltk.javascript</module>
 		<module>../org.eclipse.dltk.tcl</module>
 		<module>../org.eclipse.dltk.ruby</module>
 		<module>../org.eclipse.dltk.python</module>

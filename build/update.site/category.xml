@@ -58,12 +58,6 @@
    <feature url="features/org.eclipse.dltk.python.sdk_0.0.0.jar" id="org.eclipse.dltk.python.sdk" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.javascript_0.0.0.jar" id="org.eclipse.dltk.javascript" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.javascript.sdk_0.0.0.jar" id="org.eclipse.dltk.javascript.sdk" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
    <feature url="features/org.eclipse.dltk.xotcl_0.0.0.jar" id="org.eclipse.dltk.xotcl" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
