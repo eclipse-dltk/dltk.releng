@@ -107,10 +107,10 @@
 									
 								<copy overwrite="true"
 									file="${basedir}/../runtime.sites/core.index/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-core-index-${buildLabel}${buildId}.zip" />
+									tofile="${basedir}/target/site/dltk-core-index-lucene-${buildLabel}${buildId}.zip" />
 								<copy overwrite="true"
 									file="${basedir}/../source.sites/core.index/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-core-index-sdk-${buildLabel}${buildId}.zip" />
+									tofile="${basedir}/target/site/dltk-core-index-lucene-sdk-${buildLabel}${buildId}.zip" />
 
 								<copy overwrite="true"
 									file="${basedir}/../runtime.sites/tcl/target/site_assembly.zip"

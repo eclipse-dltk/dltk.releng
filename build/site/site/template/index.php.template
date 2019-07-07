@@ -281,14 +281,14 @@ as PHP and Perl.</p>
         ?>
       </tr>
 	  <tr>
-        <td class="bold" nowrap><img src="images/eclipse.png" alt="" />DLTK H2 Index</td>
+        <td class="bold" nowrap><img src="images/eclipse.png" alt="" />DLTK Lucene Index</td>
         <td><img src="images/eclipse.png" alt="" />Core, <img src="images/eclipse.png" alt="" />H2</td>
         <?php
-        $zipfilename="dltk-core-index-@build@";
+        $zipfilename="dltk-core-index-lucene-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
         echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
-        $zipfilename="dltk-core-index-sdk-@build@";
+        $zipfilename="dltk-core-index-lucene-sdk-@build@";
         $filename=$zipfilename.".zip";
         $zipfilesize=fileSizeInMegs($filename);
         echo '<td><img src="images/download.png" alt="" /><a href="' . $downloadprefix . $filename . '">' . "Download " . '</a><h6>'.$zipfilesize.'mb</h6><a href="checksum/' . $filename . '.md5"><img src="images/md5.png" alt="" /></a></td>';
