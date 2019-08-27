@@ -34,7 +34,6 @@
 		<module>../org.eclipse.dltk.core</module>
 		<module>../org.eclipse.dltk.tcl</module>
 		<module>../org.eclipse.dltk.ruby</module>
-		<module>../org.eclipse.dltk.sh</module>
 		<module>build/update.site</module>
 		<!-- <module>testplatform</module> <module>javascript.tests</module> -->
 		<!-- <module>site</module> -->
