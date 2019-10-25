@@ -34,12 +34,6 @@
    <feature url="features/org.eclipse.dltk.core.tests_0.0.0.jar" id="org.eclipse.dltk.core.tests" version="0.0.0">
       <category name="DLTK-Tests"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.ruby_0.0.0.jar" id="org.eclipse.dltk.ruby" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.ruby.sdk_0.0.0.jar" id="org.eclipse.dltk.ruby.sdk" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
    <feature url="features/org.eclipse.dltk.tcl_0.0.0.jar" id="org.eclipse.dltk.tcl" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
