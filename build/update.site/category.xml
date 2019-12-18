@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site
-      mirrorsURL="http://www.eclipse.org/downloads/download.php?file=/technology/dltk/updates-dev/6.0/site.xml&amp;format=xml"
-      digestURL="http://download.eclipse.org/technology/dltk/updates-dev/6.0/">
+      mirrorsURL="http://www.eclipse.org/downloads/download.php?file=/technology/dltk/updates-dev/6.1/site.xml&amp;format=xml"
+      digestURL="http://download.eclipse.org/technology/dltk/updates-dev/6.1/">
    <description url="http://www.eclipse.org/dltk/">
       The update site contains the features of
   the Eclipse Dynamic Languages
