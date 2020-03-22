@@ -58,5 +58,26 @@
 				</plugins>
 			</build>
 		</profile>
+        <profile>
+                <id>sonar</id>
+                <build>
+                        <plugins>
+                                <plugin>
+                                        <groupId>org.jacoco</groupId>
+                                        <artifactId>jacoco-maven-plugin</artifactId>
+                                        <version>${jacoco.version}</version>
+                                        <executions>
+                                                <execution>
+                                                        <id>report</id>
+                                                        <goals>
+                                                                <goal>report-aggregate</goal>
+                                                        </goals>
+                                                        <phase>verify</phase>
+                                                </execution>
+                                        </executions>
+                                </plugin>
+                        </plugins>
+                </build>
+        </profile>
 	</profiles>
 </project>
