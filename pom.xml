@@ -246,13 +246,17 @@
 		<profile>
 			<id>sonar</id>
 			<properties>
+				<rootDir>${session.executionRootDirectory}</rootDir>
 				<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 				<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-				<sonar.jacoco.reportPath>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPath>
+				 <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../../target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+				<sonar.skippedModules>core.tests,org.eclipse.dltk.core.tests,org.eclipse.dltk.debug.tests,org.eclipse.dltk.ui.tests,org.eclipse.dltk.validators.core.tests,org.eclipse.dltk.formatter.tests,org.eclipse.dltk.debug.ui.tests,org.eclipse.dltk.core.tests,org.eclipse.dltk.tcl.tests,org.eclipse.dltk.tcl.parser.tests,org.eclipse.dltk.tcl.core.tests,org.eclipse.dltk.tcl.formatter.tests,org.eclipse.dltk.tcl.validators.tests,org.eclipse.dltk.tcl.ui.tests,org.eclipse.dltk.tcl.activestatedebugger.tests,org.eclipse.dltk.itcl.core.tests,org.eclipse.dltk.xotcl.core.tests,update.site</sonar.skippedModules>	
 				<sonar.java.source>1.8</sonar.java.source>
 				<maven.test.failure.ignore>true</maven.test.failure.ignore>
 				<maven.test.error.ignore>true</maven.test.error.ignore>
 				<tycho.testArgLine>${jacoco.argLine}</tycho.testArgLine>
+				<jacoco.version>0.8.5</jacoco.version>
+				<sonar.exclusions>**/gen/**,**/*Messages.java</sonar.exclusions>
 			</properties>
 			<build>
 				<pluginManagement>
@@ -281,7 +285,7 @@
 										<include>org.eclipse.dltk.*</include>
 									</includes>
 									<propertyName>jacoco.argLine</propertyName>
-									<append>true</append>
+									<outputDirectory>${project.reporting.outputDirectory}/jacoco</outputDirectory>
 								</configuration>
 							</execution>
 						</executions>
