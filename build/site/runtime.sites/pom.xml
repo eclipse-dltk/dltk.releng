@@ -18,13 +18,9 @@
 		<module>core</module>
 		<module>core.index</module>
 		<module>itcl</module>
-		<module>javascript</module>
 		<module>mylyn</module>
-		<module>python</module>
 		<module>rse</module>
-		<module>ruby</module>
 		<module>tcl</module>
 		<module>xotcl</module>
-		<module>sh</module>
 	</modules>
 </project>

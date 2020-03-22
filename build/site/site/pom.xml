@@ -99,13 +99,6 @@
 									tofile="${basedir}/target/site/dltk-core-sdk-${buildLabel}${buildId}.zip" />
 									
 								<copy overwrite="true"
-									file="${basedir}/../runtime.sites/sh/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-sh-${buildLabel}${buildId}.zip" />
-								<copy overwrite="true"
-									file="${basedir}/../source.sites/sh/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-sh-sdk-${buildLabel}${buildId}.zip" />
-									
-								<copy overwrite="true"
 									file="${basedir}/../runtime.sites/core.index/target/site_assembly.zip"
 									tofile="${basedir}/target/site/dltk-core-index-lucene-${buildLabel}${buildId}.zip" />
 								<copy overwrite="true"
@@ -127,13 +120,6 @@
 									tofile="${basedir}/target/site/dltk-itcl-sdk-${buildLabel}${buildId}.zip" />
 
 								<copy overwrite="true"
-									file="${basedir}/../runtime.sites/ruby/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-ruby-${buildLabel}${buildId}.zip" />
-								<copy overwrite="true"
-									file="${basedir}/../source.sites/ruby/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-ruby-sdk-${buildLabel}${buildId}.zip" />
-
-								<copy overwrite="true"
 									file="${basedir}/../runtime.sites/xotcl/target/site_assembly.zip"
 									tofile="${basedir}/target/site/dltk-xotcl-${buildLabel}${buildId}.zip" />
 								<copy overwrite="true"
@@ -148,25 +134,11 @@
 									tofile="${basedir}/target/site/dltk-mylyn-sdk-${buildLabel}${buildId}.zip" />
 
 								<copy overwrite="true"
-									file="${basedir}/../runtime.sites/javascript/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-javascript-${buildLabel}${buildId}.zip" />
-								<copy overwrite="true"
-									file="${basedir}/../source.sites/javascript/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-javascript-sdk-${buildLabel}${buildId}.zip" />
-
-								<copy overwrite="true"
 									file="${basedir}/../runtime.sites/rse/target/site_assembly.zip"
 									tofile="${basedir}/target/site/dltk-rse-${buildLabel}${buildId}.zip" />
 								<copy overwrite="true"
 									file="${basedir}/../source.sites/rse/target/site_assembly.zip"
 									tofile="${basedir}/target/site/dltk-rse-sdk-${buildLabel}${buildId}.zip" />
-									
-								<copy overwrite="true"
-									file="${basedir}/../runtime.sites/python/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-python-${buildLabel}${buildId}.zip" />
-								<copy overwrite="true"
-									file="${basedir}/../source.sites/python/target/site_assembly.zip"
-									tofile="${basedir}/target/site/dltk-python-sdk-${buildLabel}${buildId}.zip" />
 									
 
 								<replace file="${resultingIndex}" token="@date@" value="${TODAY}" />

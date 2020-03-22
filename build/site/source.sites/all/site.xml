@@ -30,28 +30,10 @@
    <feature url="features/org.eclipse.dltk.mylyn.sdk_0.0.0.jar" id="org.eclipse.dltk.mylyn.sdk" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.ruby_0.0.0.jar" id="org.eclipse.dltk.ruby" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.ruby.sdk_0.0.0.jar" id="org.eclipse.dltk.ruby.sdk" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
    <feature url="features/org.eclipse.dltk.tcl_0.0.0.jar" id="org.eclipse.dltk.tcl" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
    <feature url="features/org.eclipse.dltk.tcl.sdk_0.0.0.jar" id="org.eclipse.dltk.tcl.sdk" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.python_0.0.0.jar" id="org.eclipse.dltk.python" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.python.sdk_0.0.0.jar" id="org.eclipse.dltk.python.sdk" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.javascript_0.0.0.jar" id="org.eclipse.dltk.javascript" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.javascript.sdk_0.0.0.jar" id="org.eclipse.dltk.javascript.sdk" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
    <feature url="features/org.eclipse.dltk.xotcl_0.0.0.jar" id="org.eclipse.dltk.xotcl" version="0.0.0">
@@ -64,12 +46,6 @@
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
    <feature url="features/org.eclipse.dltk.itcl.sdk_0.0.0.jar" id="org.eclipse.dltk.itcl.sdk" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.sh_0.0.0.jar" id="org.eclipse.dltk.sh" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.sh.sdk_0.0.0.jar" id="org.eclipse.dltk.sh.sdk" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
    <category-def name="Dynamic Languages Toolkit (DLTK)" label="Dynamic Languages Toolkit (DLTK)">

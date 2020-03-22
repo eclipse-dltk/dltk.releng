@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/org.eclipse.dltk.javascript_0.0.0.jar" id="org.eclipse.dltk.javascript" version="0.0.0"/>
-   <feature url="features/org.eclipse.dltk.javascript.sdk_0.0.0.jar" id="org.eclipse.dltk.javascript.sdk" version="0.0.0"/>
-</site>
