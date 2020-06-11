@@ -14,7 +14,7 @@
 
 	<groupId>org.eclipse.dltk</groupId>
 	<artifactId>dltk.build.all</artifactId>
-	<version>6.2.0-SNAPSHOT</version>
+	<version>6.3.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<url>https://eclipse.org/dltk</url>
 	<prerequisites>
@@ -39,7 +39,7 @@
 	</modules>
 
 	<properties>
-		<tycho-version>1.6.0</tycho-version>
+		<tycho-version>1.7.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<antrun-version>1.8</antrun-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
