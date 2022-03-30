@@ -25,12 +25,6 @@
    <feature url="features/org.eclipse.dltk.core.index.lucene.sdk_0.0.0.jar" id="org.eclipse.dltk.core.index.lucene.sdk" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <feature url="features/org.eclipse.dltk.mylyn_0.0.0.jar" id="org.eclipse.dltk.mylyn" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
-   <feature url="features/org.eclipse.dltk.mylyn.sdk_0.0.0.jar" id="org.eclipse.dltk.mylyn.sdk" version="0.0.0">
-      <category name="Dynamic Languages Toolkit (DLTK)"/>
-   </feature>
    <feature url="features/org.eclipse.dltk.core.tests_0.0.0.jar" id="org.eclipse.dltk.core.tests" version="0.0.0">
       <category name="DLTK-Tests"/>
    </feature>
