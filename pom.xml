@@ -133,13 +133,18 @@
 							<ws>cocoa</ws>
 							<arch>x86_64</arch>
 						</environment>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>aarch64</arch>
+						</environment>
 					</environments>
-					 <target>
-            					<artifact>
-             					<groupId>org.eclipse.dltk.core</groupId>
-              					<artifactId>org.eclipse.dltk.core.targetplatform</artifactId>
-						<version>${project.version}</version>
-            					</artifact>
+					<target>
+						<artifact>
+							<groupId>org.eclipse.dltk.core</groupId>
+							<artifactId>org.eclipse.dltk.core.targetplatform</artifactId>
+							<version>${project.version}</version>
+						</artifact>
 					</target>
 				</configuration>
 			</plugin>
