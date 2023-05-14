@@ -2,7 +2,7 @@
 <project name="Check" default="init" basedir=".">
 	<target name="init">
 		<xmlproperty file="${basedir}/../../pom.xml" prefix="pom_file" collapseattributes="true" semanticattributes="true"/>
-		<script language="javascript">
+		<script language="javascript"  manager="javax" classpathref="maven.plugin.classpath">
 		<![CDATA[
 		var modules = project.getProperty('pom_file.project.modules.module').split(',');
 		function echo(mess) {
@@ -46,7 +46,14 @@
 				echo(filename);
 				var curr = tests ? counts.tests : counts.bundles;
 				curr.totalBundles++;
-				var dbFactory = javax.xml.parsers.DocumentBuilderFactory.newInstance(), dBuilder = dbFactory.newDocumentBuilder(), doc = dBuilder.parse(file)
+				var dbFactory = javax.xml.parsers.DocumentBuilderFactory.newInstance();
+				dbFactory.setValidating(false);
+				dbFactory.setNamespaceAware(false);
+				dbFactory.setExpandEntityReferences(false);
+				dbFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+				dbFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+				
+				var dBuilder = dbFactory.newDocumentBuilder(), doc = dBuilder.parse(file)
 				var sources = doc.getElementsByTagName('sources');
 				if (sources.getLength() == 0) {
 					continue;
@@ -110,7 +117,7 @@
 			transformer.transform(source, result);
 		}
 		prepareXml('compilelogsSummary.xml', counts.bundles);
-		prepareXml('testcompilelogsSummary.xml', counts.tests);
+	    prepareXml('testcompilelogsSummary.xml', counts.tests);
 		]]>
 		</script>
 	</target>
