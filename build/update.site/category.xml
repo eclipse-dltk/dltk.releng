@@ -46,10 +46,10 @@
    <feature url="features/org.eclipse.dltk.itcl.sdk_0.0.0.jar" id="org.eclipse.dltk.itcl.sdk" version="0.0.0">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </feature>
-   <bundle id="org.apache.lucene.core" version="8.4.1.v20200122-1459">
+   <bundle id="org.apache.lucene.core" version="9.4.2.v20221211-0752">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </bundle>
-   <bundle id="org.apache.lucene.analyzers-common" version="8.4.1.v20200122-1459">
+   <bundle id="org.apache.lucene.analysis-common" version="9.4.2.v20221211-0752">
       <category name="Dynamic Languages Toolkit (DLTK)"/>
    </bundle>
    <category-def name="Dynamic Languages Toolkit (DLTK)" label="Dynamic Languages Toolkit (DLTK)">
